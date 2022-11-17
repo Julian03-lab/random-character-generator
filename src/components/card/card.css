@@ -1,0 +1,109 @@
+.avatar {
+  background-color: var(--black);
+  border-radius: 24px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--withe);
+}
+
+.last-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--withe);
+}
+
+.card-info {
+  font-size: 1.1rem;
+  color: var(--black);
+  font-weight: 500;
+  background-color: var(--withe);
+  border-radius: 0 0 24px 24px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  min-width: 17rem;
+}
+
+.card-avatar {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.card-avatar img {
+  border-radius: 50%;
+}
+
+@media all and (min-width: 375px) and (max-width: 767px) {
+  .subtitle {
+    font-size: 1.4rem;
+    min-width: 19rem;
+  }
+
+  .card-info {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .last-name {
+    font-size: 1.5rem;
+  }
+
+  .card-info {
+    font-size: 1.3rem;
+  }
+  .subtitle {
+    font-size: 1.6rem;
+    min-width: 22rem;
+  }
+  .card-avatar {
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--withe);
+  }
+
+  .last-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--withe);
+  }
+
+  .card-info {
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: 500;
+    background-color: var(--withe);
+    border-radius: 0 0 24px 24px;
+  }
+  .subtitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    min-width: 22rem;
+  }
+
+  .card-avatar {
+    width: 50%;
+    border-radius: 50%;
+  }
+}

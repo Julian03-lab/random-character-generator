@@ -1,0 +1,44 @@
+#page-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0;
+  color: #07020d;
+  text-align: center;
+}
+
+button {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: none;
+  color: #07020d;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  #page-title {
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  #page-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 0;
+    color: #07020d;
+    text-align: center;
+  }
+
+  button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: none;
+    color: #07020d;
+  }
+}
