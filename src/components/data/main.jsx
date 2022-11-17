@@ -25,7 +25,7 @@ const Data = (props) => {
   }, []);
 
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center gap-4 gap-lg-5 vh-100 p-4" style={{backgroundColor: color}}>
+    <div className="d-flex flex-column align-items-center justify-content-center gap-4 gap-lg-3 vh-100 p-4" style={{backgroundColor: color}}>
        <h1 id="page-title">Random Data Generator</h1>
       <Card
         avatar={users.avatar}
